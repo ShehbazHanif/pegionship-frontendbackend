@@ -45,6 +45,8 @@ app.get('/health', (req, res) => {
 });
 
 
+//============== ROUTES START HERE ==============
+
 app.use("/api/v1/auth", require("./scr/routes/auth"));
 app.use("/api/v1/contact", require("./scr/routes/contact"));
 app.use("/api/v1/agent", require("./scr/routes/agent"));
